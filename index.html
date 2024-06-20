@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="" id="todo">
+    <button onclick="addtodo()" id="submitbutton">เพิ่ม todo</button>
+<div id="result">
+
+</div>
+<script>
+    const submitbutton = document.getElementById('submitbutton')
+    submitbutton.addEventListener("click",addtodo)
+
+function addtodo(){
+    const valuetodo = document.getElementById('todo').value
+    const result = getElementById('result')
+    const p = document.createElement('P')
+    result.appenChild(p)
+}
+</script>
+</body>
+</html>
